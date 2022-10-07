@@ -1,7 +1,7 @@
-<div class="container">
+<header class="main-header">
     <figure>
         <a href="/">
-            <img src="" alt="Dc Logo">
+            <img src="{{ asset('/images/dc-logo.png') }}" alt="Dc Logo">
         </a>
     </figure>
 
@@ -38,6 +38,7 @@
                 'text' => 'Shop',
             ],
         ];
+
     @endphp
 
     <nav class="navbar">
@@ -48,7 +49,8 @@
                         {{ $link['text'] }}
                     </a>
                 </li>
+            @endforeach
         </ul>
 
     </nav>
-</div>
+</header>
