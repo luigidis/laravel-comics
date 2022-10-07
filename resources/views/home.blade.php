@@ -6,6 +6,4 @@
     <div>
         <h1>Benvenuti nel Dc Comics store</h1>
     </div>
-
-
 @endsection
