@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-ul,
-ol,
-menu {
+ul, ol, menu {
   list-style: none;
 }
 
@@ -39,7 +37,6 @@ header.main-header {
   padding: 10px 0;
   height: 144px;
 }
-
 header.main-header .navbar-container {
   display: flex;
   gap: 10px;
@@ -47,12 +44,10 @@ header.main-header .navbar-container {
   font-weight: bold;
   text-transform: uppercase;
 }
-
 header.main-header .navbar-container .navbar-item {
   position: relative;
   cursor: pointer;
 }
-
 header.main-header .navbar-container .navbar-item:hover::after {
   content: "";
   width: 100%;
@@ -64,3 +59,79 @@ header.main-header .navbar-container .navbar-item:hover::after {
   right: 0;
 }
 
+.big .bg-color-cyan {
+  height: 191px;
+}
+.big .bg-color-cyan .head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+  align-items: center;
+  height: 100%;
+}
+.big .bg-img-footer {
+  height: 453px;
+  background-image: url("../images/footer-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big .bg-img-footer .mid {
+  height: 100%;
+}
+.big .bg-img-footer .mid .dc-logo-big {
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  background-image: url("../images/dc-logo-bg.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.big .bg-img-footer .mid .dc-logo-big .container-mid {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+}
+.big .bg-img-footer .mid .dc-logo-big .container-mid .col li {
+  color: #818080;
+  padding: 5px 0;
+}
+.big .bg-img-footer .mid .dc-logo-big .container-mid .col li h3 {
+  text-transform: uppercase;
+  padding: 10px 0;
+  color: white;
+}
+.big .bg-color-grey {
+  height: 132px;
+  background-color: #505050;
+}
+.big .bg-color-grey .end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  height: 100%;
+  font-size: 1.25rem;
+}
+.big .bg-color-grey .end .button {
+  border: 3px solid #0282F9;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+.big .bg-color-grey .end .icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.big .bg-color-grey .end .icons .text_follow {
+  color: #0282F9;
+  font-weight: bold;
+  text-transform: uppercase;
+}
