@@ -1,6 +1,47 @@
 <div class="big">
     <div class="bg-color-cyan">
-        {{-- <HeaderFooter /> --}}
+        <div class="head_container container">
+            <div class="card_container">
+                <figure>
+                    <img src="{{ asset('/images/buy-comics-digital-comics.png') }}" alt="Banner Dc digital">
+                </figure>
+                <div>
+                    <p class="text-uppercase text-smaller">Digital Comics</p>
+                </div>
+            </div>
+            <div class="card_container">
+                <figure>
+                    <img src="{{ asset('/images/buy-comics-merchandise.png') }}" alt="Dc Merchandise">
+                </figure>
+                <div>
+                    <p class="text-uppercase text-smaller">DC Merchandise</p>
+                </div>
+            </div>
+            <div class="card_container">
+                <figure>
+                    <img src="{{ asset('/images/buy-comics-subscriptions.png') }}" alt="Banner Dc digital">
+                </figure>
+                <div>
+                    <p class="text-uppercase text-smaller">Subscription</p>
+                </div>
+            </div>
+            <div class="card_container">
+                <figure>
+                    <img src="{{ asset('/images/buy-comics-shop-locator.png') }}" alt="Banner Dc digital">
+                </figure>
+                <div>
+                    <p class="text-uppercase text-smaller">Comic Shop Locator</p>
+                </div>
+            </div>
+            <div class="card_container">
+                <figure>
+                    <img src="{{ asset('/images/buy-dc-power-visa.svg') }}" alt="Banner Dc digital">
+                </figure>
+                <div>
+                    <p class="text-uppercase text-smaller">Dc Power Visa</p>
+                </div>
+            </div>
+        </div>
     </div>
     <div class=bg-img-footer>
         <div class="mid container">
@@ -65,19 +106,19 @@
                         <a href="#" class="text_follow">Follow Us</a>
                     </li>
                     <li>
-                        <img src="../assets/img/footer-facebook.png" alt="Facebook Logo">
+                        <img src="{{ asset('/images/footer-facebook.png') }}" alt="Facebook Logo">
                     </li>
                     <li>
-                        <img src="../assets/img/footer-twitter.png" alt="Twitter Logo">
+                        <img src="{{ asset('/images/footer-twitter.png') }}" alt="Twitter Logo">
                     </li>
                     <li>
-                        <img src="../assets/img/footer-youtube.png" alt="Youtube Logo">
+                        <img src="{{ asset('/images/footer-youtube.png') }}" alt="Youtube Logo">
                     </li>
                     <li>
-                        <img src="../assets/img/footer-pinterest.png" alt="Pinterest Logo">
+                        <img src="{{ asset('/images/footer-pinterest.png') }}" alt="Pinterest Logo">
                     </li>
                     <li>
-                        <img src="../assets/img/footer-periscope.png" alt="Periscope Logo">
+                        <img src="{{ asset('/images/footer-periscope.png') }}" alt="Periscope Logo">
                     </li>
                 </ul>
             </div>

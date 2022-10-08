@@ -61,6 +61,7 @@ header.main-header .navbar-container .navbar-item:hover::after {
 
 .big .bg-color-cyan {
   height: 191px;
+  background-color: #0282F9;
 }
 .big .bg-color-cyan .head {
   display: flex;
@@ -134,4 +135,31 @@ header.main-header .navbar-container .navbar-item:hover::after {
   color: #0282F9;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.head_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.head_container .card_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+.head_container figure {
+  flex-basis: 20%;
+}
+.head_container figure img {
+  width: 45px;
+}
+.head_container div {
+  flex-basis: 80%;
+}
+.head_container div p {
+  color: white;
 }
