@@ -163,3 +163,30 @@ header.main-header .navbar-container .navbar-item:hover::after {
 .head_container div p {
   color: white;
 }
+
+.bg-color-black {
+  height: 600px;
+  background-color: #1C1C1C;
+}
+.bg-color-black .container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  padding: 10px;
+}
+.bg-color-black .container .card {
+  display: flex;
+  flex-direction: column;
+  max-width: 185px;
+}
+.bg-color-black .container .card img {
+  width: 100%;
+  aspect-ratio: 1;
+  flex-basis: 80%;
+}
+.bg-color-black .container .card h3 {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-size: 0.85rem;
+}
