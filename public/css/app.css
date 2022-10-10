@@ -164,9 +164,35 @@ header.main-header .navbar-container .navbar-item:hover::after {
   color: white;
 }
 
+.jumbotron-container {
+  height: 440px;
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+.jumbotron-container .ps_absolute {
+  position: relative;
+  min-width: 200px;
+}
+.jumbotron-container .ps_absolute .button_absolute {
+  position: absolute;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  background-color: #0282F9;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  transform: translate(0, -50%);
+  margin-right: auto;
+}
+
 .bg-color-black {
   height: 600px;
   background-color: #1C1C1C;
+  padding-top: 50px;
 }
 .bg-color-black .container {
   display: grid;

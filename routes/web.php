@@ -17,5 +17,19 @@ Route::get('/', function () {
     $data = [
         'comics' => config('comics')
     ];
-    return view('home', $data);
-});
+    return view('home.index', $data);
+})->name('comics');
+
+
+Route::get('comics/{id}', function ($id) {
+    $comics = config('comics');
+    if ($id < count($comics)) {
+        $comicsRight = $comics[$id];
+        $data = [
+            'comic' => $comicsRight
+        ];
+        return view('home.product', $data);
+    } else {
+        abort(404);
+    }
+})->where('id', '[0-9]+')->name('comic');
